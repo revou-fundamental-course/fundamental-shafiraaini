@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-header{
+        flex-direction: column;
+    }
+
+    .menu{
+        width: 100%;
+        flex-direction: column;}
+
+    .home-icon{margin-bottom: 10px;}
+
+    .main-container{
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.section-1-bawah {
+    display: flex;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.home-icon {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6662/6662916.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+.menu-button{
+    display:flex;
+    align-items: center;
+}
+
+.button{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px 20px 8px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+.main-content-header {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+.section-1-left {
+    width: 60%;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+}
+
+.banner-img {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.img-slideshow {
+    aspect-ratio: 4/3;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+}
+
+.main-container {
+    display: flex;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    gap:20px;
+}
+
+.main-item {
+    flex: 1;
+}
+
+
+.quote {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote > i {
+    font-size: 1.5rem;
+}
+
+.yang-ngomong-quote {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profilephoto {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: red;
+}
+
+table {
+    border-spacing: 15px;
+}
+
+.table-benefit {
+    width: 500px;
+}
+
+.number {
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1-right {
+    
+}
+
+.contact-us {
+    font-size: 1.5rem;
+}
+
+.left-align{
+    text-align: left;
+}
+
+.mbokne-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item > input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-item > select {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.contact {
+    padding: 50px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+
+.send-button {
+    background-color: black;
+    width: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.our-package-header {
+    background-color:lightskyblue;
+    margin-top: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+article {
+    padding: 30px;
+    content: 30px;
+
+}
+
+.package-content{
+    display:flex;
+    padding: 30px;
+    
+}
+
+.destination {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    content: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.buttonCTA {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    width: 180px;
+    cursor: pointer;
+    background-color: lightskyblue;
+    color: black;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
